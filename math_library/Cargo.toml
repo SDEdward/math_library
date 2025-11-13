@@ -1,20 +1,15 @@
 [package]
 name = "math_library"
-version = "1.2.1"
+version = "1.2.2"
 edition = "2024"
-authors = ["bunicutapescari69 <vmihaelamariana@gmail.com>"]
-description = "A math library"
+authors = ["bunicutapescari69 <vmihaelamariana@gmail.com>", "Edward <edwardstrowaway@gmail.com>"]
+description = "A simple math library"
 license = "Unlicense"
-keywords = ["math", "arithmetic"]
-categories = ["mathematics"]
+keywords = ["math", "arithmetic", "math_lib", "mathemetics", "algebra"]
+categories = ["mathematics", "algebra", "trigonometry"]
 repository = "https://github.com/SDEdward/math_library"
 exclude =["target/*"]
 documentation = "https://docs.rs/math_library"
-
-[profile.dev]
-incremental = false
-
-[profile.release]
-incremental = false
+readme = "../README.md"
 
 [dependencies]
